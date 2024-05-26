@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ミニマリストのためのTODO</title>
+    <style>
+        /* CSS Styles */
+        body {
+            font-family: 'Noto Sans JP', sans-serif;
+            letter-spacing: 0.06em;
+            margin: 10% 20%;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+        }
+        header, footer {
+            text-align: center;
+            padding: 20px;
+        }
+        main {
+            display: flex;
+            flex-direction: column; /* Start with vertical layout */
+            gap: 20px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        .text-section {
+            padding: 20px;
+        }
+        h1 {
+            font-size: 2.5em;
+        }
+        footer p {
+            font-size: 0.9em;
+        }
+
+        /* Responsive Adjustment */
+        @media (min-width: 768px) {
+            main {
+                flex-direction: row; /* Horizontal layout on larger screens */
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="https://res.cloudinary.com/dhw3ap07h/image/upload/v1716489380/0_jlqqon.png" alt="Header Image">
+        </header>
+
+        <main>
+            <section class="text-section">
+                <h1>ミニマリストのためのTODO</h1>
+                <p>余計な機能を削ぎ落とし、シンプルに、速くTODO管理ができるアプリを作りました。</p>
+            </section>
+        </main>
+
+        <footer>
+            <p>©︎YetAnotherTodo</p>
+        </footer>
+          
+    </div>
+    <script>
+        // JavaScript Enhancements
+        window.addEventListener('scroll', function() {
+            // Your animation logic here (e.g., fade in, parallax)
+        });
+    </script>
+</body>
+</html>
