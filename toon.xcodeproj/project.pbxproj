@@ -34,6 +34,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BA5AE7C42C065F4300CB0A90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		BA8145B02BF91039001BB124 /* toon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = toon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA8145B32BF91039001BB124 /* toonApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = toonApp.swift; sourceTree = "<group>"; };
 		BA8145B52BF91039001BB124 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -95,6 +96,7 @@
 		BA8145B22BF91039001BB124 /* toon */ = {
 			isa = PBXGroup;
 			children = (
+				BA5AE7C42C065F4300CB0A90 /* Info.plist */,
 				BA8145B32BF91039001BB124 /* toonApp.swift */,
 				BA8145B52BF91039001BB124 /* ContentView.swift */,
 				BA8145B72BF9103A001BB124 /* Assets.xcassets */,
@@ -418,6 +420,7 @@
 				DEVELOPMENT_TEAM = 3XK7R366CH;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = toon/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -455,6 +458,7 @@
 				DEVELOPMENT_TEAM = 3XK7R366CH;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = toon/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
